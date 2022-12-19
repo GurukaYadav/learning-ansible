@@ -1,5 +1,5 @@
 - name: Play-level variables
-  hosts: all
+  hosts: localhost
   vars:
     URL: avinash@google.com
   tasks:
