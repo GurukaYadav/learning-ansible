@@ -1,0 +1,12 @@
+- name: Play-level variables
+  hosts: all
+  var:
+    URL: avinash@google.com
+  tasks:
+    - name: Print URL
+      ansible.built.debug:
+        msg: {{URL}}
+
+
+
+  

@@ -7,3 +7,6 @@
     - name: print fruit
       debug:
         msg: Mango
+# name is an optional key, but you can use for best practice
+# ansible.builtin.debug is a collection.This is supported from 2.10 version and this is future
+# debug is a module. This is supported till 2.9 version  and this will soon deprecate
