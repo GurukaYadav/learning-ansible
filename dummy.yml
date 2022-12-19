@@ -1,0 +1,21 @@
+CourseName: Devops with Azure
+TrainerName: Guruka Avinash Yadav
+Timings:
+  - 06amIST
+  - 0830pmEST
+Timings:
+  ist: 6am
+  est: 830pm
+Topics:
+  Azure:
+    - avinash
+    - arun
+    - chinna
+Phone:
+  - 2629
+  - 1777
+
+Timings: ["06amIST", "0830pmEST"]
+Topics: {Azure:avinash,arun,chinna}
+Topics: {Azure: ["avinash","arun","chinna"]}
+Timimgs: {ist: "6am",est: "830am"}

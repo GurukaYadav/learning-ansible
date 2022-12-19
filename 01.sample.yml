@@ -1,13 +1,6 @@
-CourseName: Devops with Azure
-TrainerName: Guruka Avinash Yadav
-Timings:
-  - 06amIST
-  - 0830pmEST
-Topics:
-  Azure:
-    - avinash
-    - arun
-    - chinna
-Phone:
-  - 2629
-  - 1777
+- name: Introduction to playbook
+  hosts: all
+  tasks:
+    - name: print a text
+      ansible.builtin.debug:
+        msg: Guruka Avinash Yadav
