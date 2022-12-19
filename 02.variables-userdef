@@ -1,6 +1,6 @@
 - name: Play-level variables
   hosts: all
-  var:
+  vars:
     URL: avinash@google.com
   tasks:
     - name: Print URL
