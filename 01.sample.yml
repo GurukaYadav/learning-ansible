@@ -4,6 +4,6 @@
     - name: print a text
       ansible.builtin.debug:
         msg: Guruka Avinash Yadav
-    - name: print another text
+    - name: print fruit
       debug:
-        msg: Guruka Srinivas Yadav
+        msg: Mango
