@@ -16,5 +16,14 @@
       ansible.builtin.debug:
         msg: URL= {{URL}}
 
+- name: Task-level variables
+  hosts: localhost
+  tasks:
+    - name: Print URL
+      ansible.builtin.debug:
+        msg: URL= {{URL}}
+      vars:
+        URL: avinash@twitter.com
+
 
 
