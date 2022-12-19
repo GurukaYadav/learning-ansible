@@ -25,5 +25,12 @@
       vars:
         URL: avinash@twitter.com
 
+- name: Inventory file variables
+  hosts: localhost
+  tasks:
+    - name: Print URL
+      ansible.builtin.debug:
+        msg: URL={{URL}}
+
 
 
