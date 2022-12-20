@@ -50,3 +50,13 @@
         msg: "{{ansible_fqdn}}"
 
 #WKT, key:value.If the value start with an variable then we have to quote either with single or double quotes
+
+- name: register variables
+  hosts: localhost
+  tasks:
+    - name: Execute a shell command output
+      ansible.builtin.shell: uptime
+      register: output
+    - name: Print the output
+      ansible.builtin.debug:
+        msg: "{{output}}"
