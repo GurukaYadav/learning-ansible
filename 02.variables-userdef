@@ -59,4 +59,4 @@
       register: output
     - name: Print the output
       ansible.builtin.debug:
-        msg: "{{output}}"
+        msg: "{{output.stdout}}"
