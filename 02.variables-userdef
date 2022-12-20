@@ -44,4 +44,4 @@
   tasks:
     - name: Print host name
       ansible.builtin.debug:
-        msg: Hostname={{ansible_hostname}}
+        msg: Hostname={{ansible_hostname}}, architecture={{ansible_architecture}}
