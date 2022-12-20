@@ -45,3 +45,8 @@
     - name: Print host name
       ansible.builtin.debug:
         msg: Hostname={{ansible_hostname}}, architecture={{ansible_architecture}}
+     - name: Print FQDN
+       ansible.builtin.debug:
+         msg: "{{ansible_fqdn}}"
+
+#WKT, key:value.If the value start with an variable then we have to quote either with single or double quotes
