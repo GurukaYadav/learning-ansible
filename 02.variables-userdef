@@ -32,5 +32,10 @@
       ansible.builtin.debug:
         msg: URL={{URL}}
 
-
+- name: Command line variables
+  hosts: localhost
+  tasks:
+    - name: Print URL
+      ansible.builtin.debug:
+        msg: URL={{URL}}
 
