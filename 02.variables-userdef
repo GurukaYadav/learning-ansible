@@ -45,7 +45,7 @@
     - name: Print host name
       ansible.builtin.debug:
         msg: Hostname={{ansible_hostname}}, architecture={{ansible_architecture}}
-     - name: Print FQDN
+    - name: Print FQDN
        ansible.builtin.debug:
          msg: "{{ansible_fqdn}}"
 
