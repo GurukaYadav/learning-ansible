@@ -39,8 +39,8 @@
       ansible.builtin.debug:
         msg: URL={{URL}}
 
-- name:ansible facts
-  hosts:localhost
+- name: ansible facts
+  hosts: localhost
   tasks:
     - name: Print host name
       ansible.builtin.debug:
