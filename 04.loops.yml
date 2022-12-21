@@ -8,7 +8,7 @@
         - banana
         - apple
     - name: Loop example with maps
-      debug:
+      ansible.builtin.debug:
         msg: Fruit Name={{item.Name}}, Quantity= {{item.Quantity}}
       loop:
         - {Name:banana, quantity:10}
