@@ -1,4 +1,4 @@
-- name: Inroduction to loops in ansible
+- name: Introduction to loops in ansible
   hosts: localhost
   tasks:
     - name: Loop example
