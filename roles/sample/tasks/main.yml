@@ -10,10 +10,12 @@
   ansible.builtin.copy:
     src: sample.txt
     dest: /tmp/sample-file.txt
+    remote_src: yes
 
 - name: Template a file
   ansible.builtin.template:
     src: sample.txt
     dest: /tmp/sample-template.txt
+    remote_src: yes
 
 
