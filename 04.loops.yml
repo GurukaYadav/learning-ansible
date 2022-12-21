@@ -1,0 +1,9 @@
+- name: Inroduction to loops in ansible
+  hosts: localhost
+  tasks:
+    - name: Loop example
+      ansible.builtin.debug:
+        msg: Fruit Name={{item}}
+      loop
+        - banana
+        - apple
