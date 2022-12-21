@@ -11,5 +11,5 @@
       ansible.builtin.debug:
         msg: Fruit Name={{item.Name}}, Quantity={{item.Quantity}}
       loop:
-        - {Name:banana, Quantity:10}
-        - {Name:apple, Quantity:10}
+        - { Name:banana, Quantity:10 }
+        - { Name:apple, Quantity:10 }
