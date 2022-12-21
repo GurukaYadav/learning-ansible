@@ -4,6 +4,6 @@
     - name: Loop example
       ansible.builtin.debug:
         msg: Fruit Name={{item}}
-      loop
+      loop:
         - banana
         - apple
